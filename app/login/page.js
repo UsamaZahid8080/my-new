@@ -11,7 +11,7 @@ function page() {
    <div className='flex justify-between'>
    <div className='ml-24 mr-16 max-w-96'>
    <h4 className='text-2xl font-bold tracking-normal leading-tight whitespace-pre-line mt-[1%]'>Log in to Hi Squares</h4>
-   <p className='mt-3 text-xs font-semibold'>By Log in to Hi Squares,I agree to the <Link href="" className='text-red-500'>Condition of use</Link> and <Link href="" className='text-red-500'>Privacy policy</Link></p>
+   <p className='mt-3 text-xs font-semibold'>By Log in to Hi Squares,I agree to the <Link className='text-red-500'>Condition of use</Link> and <Link className='text-red-500'>Privacy policy</Link></p>
    <div className='grid grid-cols-0 gap-3 max-w-8'>
    <button variant='light' className='border border-solid border-black cursor-pointer'>
    <div className='flex gap-6 py-[7px] px-12'><FontAwesomeIcon icon={faGoogle} className='max-w-8 h-6'/> 
@@ -46,10 +46,10 @@ function page() {
       </button>
     </form>
     <div className='mb-[-7%]'>
-        <p className='text-xs font-semibold'>This site is protected by reCAPTCHA Enterprise and the Google <Link href="" className='text-red-500'>Privacy Policy</Link> and <Link href="" className='text-red-500'>Terms of Service</Link> apply.</p>
+        <p className='text-xs font-semibold'>This site is protected by reCAPTCHA Enterprise and the Google <Link className='text-red-500'>Privacy Policy</Link> and <Link className='text-red-500'>Terms of Service</Link> apply.</p>
     </div>
     <div>
-        <h5><span className='font-bold'>Don't have an account?</span> <Link href="/signup" className='text-red-500 text-xl font-bold'>Sign up</Link></h5>
+        <h5><span className='font-bold'>Don't have an account?</span><Link href="/signup" className='text-red-500 text-xl font-bold'>Sign up</Link></h5>
     </div>
    </div>
 
